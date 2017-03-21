@@ -1,0 +1,9 @@
+body {
+    font-family: "SansationRegular", "HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.4;
+    // Modernizr fallback for when there is no fontface support
+    .no-font-face & {
+        font-size: 1.05em;
+    }
+}

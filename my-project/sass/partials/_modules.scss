@@ -1,0 +1,22 @@
+.chapter-summary {
+    a {
+        border: none;
+        color: $color10;
+        display: block;
+        opacity: .7;
+        padding: .5em;
+        &:hover {
+            opacity: 1;
+        }
+        &:visited {
+            opacity: .9;
+        }
+        b {
+            display: block;
+        }
+        span {
+            display: block;
+            font-size: .8em;
+        }
+    }
+}
