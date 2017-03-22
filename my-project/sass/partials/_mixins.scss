@@ -3,3 +3,17 @@
     -moz-box-sizing: $bs-type;
     box-sizing: $bs-type;
 }
+
+@mixin button-links($button-base: darken($color11, 10%), $button-hover: darken($color11, 15%)) {
+    @include border-radius(8px);
+    @include text-shadow(0 1px 2px $color11);
+
+    border: 1px solid darken($color11, 16%);
+    margin-left: .7em;
+    padding: .3em .6em;
+    color: lighten($color10, 50%);
+    background-color: $button-base;
+    &:hover {
+        background-color: $button-hover;
+    }
+}
